@@ -1,0 +1,192 @@
+:root{
+  --tboton:#93733b;
+  --fondob:#eee5d5;
+}
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .top-navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #373737;
+    padding: 0 24pc;
+    color: #FFFFFF;
+  }
+  .ok{
+    height: 100%;
+}
+
+.botones-hero{
+    padding: 5px;
+    margin-right: 6px;
+}
+
+.botones-hero:hover{
+    background-color: #151515;
+}
+.ns{ 
+  background-color: var(--gris);
+  color: white;
+}
+
+
+
+  
+  .top-nav-list {
+    display: flex;
+  }
+  
+  .top-nav-list li {
+    padding: 10px;
+  }
+  
+  #ticket {
+    background-color: #E7D800;
+    color: black;
+  }
+  
+  #language {
+    border: solid 1px white;
+  }
+  
+  .bottom-navigation {
+    display: flex;
+    padding: 10px 24pc;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .bottom-navigation img{
+    width:90px;
+
+  }
+  #imagen2{
+    width: 20px;
+    margin-right: 20px;
+  }  
+  
+  .list-container {
+    display: flex;
+  }
+  
+  .centered-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .bottom-nav-list {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .bold-text {
+    font-weight: bold;
+    color: #373737;
+    font-size: 23px;
+  }
+  
+  .light-gray {
+    font-size: 13px;
+    color: #999999;
+  }
+  
+  .bottom-nav-list li {
+    padding: 5px 15px;
+  }
+  
+ 
+  .bottom-navigation section {
+    padding-right: 50px; 
+  }
+  
+  /* carrucel */
+  
+
+
+.carrucel{
+    background-color: #efefef;
+}
+ 
+.carrucel-contaier{
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    padding: 20px; 
+}
+
+/* cartas de carrucel */
+
+.cartas-carrucel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    color: black;
+    background-color: white;
+    margin: 20px;
+}
+
+.info{
+    margin: 30px;
+}
+
+.botton{
+    background-color: var(--fondob);
+    color:var(--tboton);
+    font-size: medium;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 30px;
+}
+
+.name{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.espacie{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+.inf{
+    margin: 10px;
+}
+
+.fecha{
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+.cuatro{
+    width: 800px;
+    height: 375px;
+}
+
+.cartas{
+    display: flex;
+    justify-content: center;
+}
+
+.car{
+    padding: 5px;
+    margin: 5px;
+    border-left: 3px solid gray;
+}
+.coleccion img{
+
+  align-items: center;
+  padding: 9px 30px ;
+  
+}
+.coleccion h1{
+  text-align: right;
+}
+
